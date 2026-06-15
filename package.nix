@@ -6,16 +6,16 @@
 
 buildGoModule (finalAttrs: {
   pname = "kli";
-  version = "0.1.4";
+  version = "0.1.5";
 
   src = fetchFromGitHub {
     owner = "bjarneo";
     repo = "kli";
     tag = "v${finalAttrs.version}";
-    hash = "sha256-Hr8pb5DHlkn5R0QLUIBbiQbZ4EG2V8urOzTduaa2b30=";
+    hash = "sha256-pgcV0TxRg2brJXvuTUbiKzegYU0StV08kIyGf7VOeP8=";
   };
 
-  vendorHash = "sha256-2i9fb2TPUDeKYzNImJ/QZF+9DDkRT0yIroLPXfI6aG4=";
+  vendorHash = "sha256-0gLwvJSEMgCw23YG8rMzoI7ubo0I5nvguex2HBJE1dU=";
 
   ldflags = [
     "-s"
