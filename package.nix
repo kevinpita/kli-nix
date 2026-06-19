@@ -6,13 +6,13 @@
 
 buildGoModule (finalAttrs: {
   pname = "ku";
-  version = "0.6.3";
+  version = "0.7.0";
 
   src = fetchFromGitHub {
     owner = "bjarneo";
     repo = "ku";
     tag = "v${finalAttrs.version}";
-    hash = "sha256-C/ic8AYIkBKTBbR99AFCKmP88IPfy/rlZePGH7Y8/2k=";
+    hash = "sha256-LJ078zRCjz+h8GbDuQiOTxfSajX4b/XxeL+FwYDqT8s=";
   };
 
   vendorHash = "sha256-0gLwvJSEMgCw23YG8rMzoI7ubo0I5nvguex2HBJE1dU=";
